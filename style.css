@@ -572,6 +572,11 @@ body {
 
 @media screen and (max-width: 768px) {
 
+    .hero, .about, .projects, .contact, .footer {
+        position: relative;
+        z-index: -1;
+    }
+
     .main .main-menu {
         display: none;
     }
