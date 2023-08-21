@@ -19,7 +19,7 @@ var scrollBtn = document.getElementById('scrollBtn');
 
 window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
-    console.log(scroll);
+    // console.log(scroll);
     if(scroll >= 800 ) {
         scrollBtn.style.display = 'block';
     } else {
@@ -62,7 +62,7 @@ menuLinks.addEventListener('click', hideMobileMenu);
 
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-        console.log(entry)
+        // console.log(entry)
         if(entry.isIntersecting) {
             entry.target.classList.add('show');
         } 
