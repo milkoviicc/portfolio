@@ -569,9 +569,9 @@ body {
     }
 }
 
-/* MOBILE 425PX TO 768PX */
+/* MOBILE 375PX TO 768PX */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     .hero, .about, .projects, .contact, .footer {
         position: relative;
