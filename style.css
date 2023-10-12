@@ -415,8 +415,8 @@ body {
     user-select: none;
 }
 
-.footer .col-md-6 .instagram{
-    margin: 0 30px;
+.footer .col-md-6 a{
+    margin: 0 5px;
 }
 
 .footer a i {
