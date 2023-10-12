@@ -116,7 +116,7 @@ body {
     border-radius: 5px;
 }
 
-.hero h3 {
+.hero h1 {
     font-family: var(--header-font);
     font-family: var(--p-font);
     font-size: 42px;
