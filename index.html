@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Marko Milkovic" />
+    <meta description="Marko Milkovic Portfolio">
+    <title>Marko Milkovic | Front-End Web Developer</title>
+    <link rel="shortcut icon" type="image/png" href="images/programming.png">
+    <link rel="apple-touch-icon" href="images/programming.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/54ff6dd527.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navbar Section -->
+    <div class="main hidden">
+        <div class="container">
+            <div class="navbar__toggle" id="mobile-menu">
+                <div class="closeNavbar">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item"><a href="#"id="home-page" class="navbar-links">home</a></li>
+                    <li class="navbar-item"><a href="#about" id="about-page" class="navbar-links">about</a></li>
+                    <li class="navbar-item"><a href="#projects" id="projects-page" class="navbar-links">projects</a></li>
+                    <li class="navbar-item"><a href="#contact" id="contact-page" class="navbar-links">contact</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <li class="name-li"><a href="#" class="name-logo"></a></li>
+                </div>
+                <div class="col-md-6">
+                    <div class="buttons">
+                        <ul class="main-menu">
+                            <li class="navbar-item"><a href="#"id="home-page" class="navbar-links">home</a></li>
+                            <li class="navbar-item"><a href="#about" id="about-page" class="navbar-links">about</a></li>
+                            <li class="navbar-item"><a href="#projects" id="projects-page" class="navbar-links">projects</a></li>
+                            <li class="navbar-item"><a href="#contact" id="contact-page" class="navbar-links">contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbarButton">
+                        <span class="bar"></span> <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero hidden ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6">
+                    <img src="images/me.jpeg" alt="Me - Marko Milkovic">
+                </div>
+                <div class="col-md-6 columns">
+                    <div class="col-md-6">
+                        <h1>Front-End Web Developer</h1>
+                        <p>Hey, I'm Marko Milkovic👋 A reliable <span>Front-end Developer</span> specialized in building pixel perfect interactive <span>websites / web applications</span> located in Petrinja, Croatia.<a href="https://goo.gl/maps/1agnxnH6S6vrXJfB8" target="_blank">📍</a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://github.com/m1lkyy" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/milkoviicc/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="hidden">Tech Stack | 
+                <i class="fab fa-html5 hidden" title="HTML5" style="color: #E34F26;"></i>
+                <i class="fab fa-css3-alt hidden" title="CSS3" style="color: #1572B6;"></i>
+                <i class="fab fa-js hidden" title="Javascript" style="color: #F7DF1E;"></i>
+                <i class="fab fa-bootstrap hidden" title="Bootstrap" style="color: #6610F2;"></i>
+            </h2>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about hidden" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6>About Me</h6>
+                    <p>I'm a junior Front-End Web Developer. I have an impressive set of skills in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>Bootstrap</span> and <span>React</span>. I offer fully responsive websites with smooth user experience, a clean and optimized code and I like working in teams to provide the best possible outcome for any web application. If you have any questions feel free to contact me down below.</p>
+                    <a href="#contact" class="contactBtn">Contact me</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/about-img.jpg" alt="Coding Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+
+    <div class="projects hidden" id="projects">
+        <div class="container">
+            <h4>Portfolio</h4>
+            <h2>Each project is a unique piece of code and development. <i class="fas fa-puzzle-piece"></i></h2>
+            <div class="firwl project-item hidden">
+                <div class="row">
+                    <div class="col-md-6 description">
+                        <div class="col-md-8">
+                            <h3>XEMTIO d.o.o</h3>
+                            <p>XEMTIO is a Croatian company based on the production and mounting of custom-made furniture.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Styled Components</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-10">
+                            <img src="images/xemtio.png" alt="Project 1">
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://www.xemtio.com/" target="_blank">Live Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lagom project-item hidden">
+                <div class="row">
+                    <div class="col-md-6 description">
+                        <div class="col-md-8">
+                            <h3>SNET</h3>
+                            <p>SNET is a social networking app built with Next.JS, ShadCN UI, and Tailwind CSS, designed for a smooth and responsive user experience. It allows users to share posts, interact through likes and comments, and connect with others effortlessly.With a focus on clean UI and great user experience, SNET is a project that showcases my front-end skills while integrating seamlessly with a powerful backend.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span>Next.JS</span>
+                            <span>ShadCN UI</span>
+                            <span>TailwindCSS</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-10">
+                            <img src="images/snet.jpeg" alt="Project 2">
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://github.com/milkoviicc/zavrsni" target="_blank">Code <i class="fab fa-github"></i></a>
+                            <a href="https://zavrsni-snet.vercel.app" target="_blank">Live Website</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weatherapp project-item hidden">
+                <div class="row">
+                    <div class="col-md-6 description">
+                        <div class="col-md-8">
+                            <h3>Weather App</h3>
+                            <p>Weather App is a website I made using Weather API to get weather information of the city user has searched for. It also changes background to a random picture of the city.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span>Html</span>
+                            <span>Css</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-10">
+                            <img src="images/weatherapp.png" alt="Project 3">
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://github.com/milkoviicc/WeatherApp" target="_blank">Code <i class="fab fa-github"></i></a>
+                            <a href="https://milkoviicc.github.io/WeatherApp/" target="_blank">Live Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shop Section -->
+    <div class="shop hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4>Shop</h4>
+                    <h2>Need a website built from scratch or a template but don't know where to look?</h2>
+                    <a href="shop.html" class="shop-btn" >Check out my shop!</a>
+                </div>
+                <div class="col-md"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact hidden" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 contact-left">
+                    <h4>Contact</h4>
+                    <p>Whether you are starting a project, need a colleague or just want to say hi, feel free to reach out to me and I will get back to you ASAP so we can have a chat.</p>        
+                </div>
+                <div class="col-md-6 contact-right">
+                    <i class="far fa-envelope"></i>
+                    <div class="col-md-6 mail">
+                        <h3>Mail</h3>
+                        <a href="mailto:marko.milkovicc@gmail.com">marko.milkovicc@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>~ Copyright © milkoviicc 2023. All rights reserved ~</h4>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://github.com/m1lkyy" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/milkoviicc/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/milkoviicc/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <button class="scroll-btn btn-styling" id="scrollBtn" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

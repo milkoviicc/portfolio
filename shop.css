@@ -1,0 +1,75 @@
+body {
+    color: #ffF;
+}
+
+.shop-hero .container {
+    margin: 150px auto;
+}
+
+.shop-hero .container h1 {
+    text-align: center;
+}
+
+.shop-hero .container .templates {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    margin: 75px 0;
+}
+
+.shop-hero .container .templates .firwl-template, .shop-hero .container .templates .navigo-cars-template, .shop-hero .container .templates .opg-template {
+    background-color: #121727;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.35);
+}
+
+.shop-hero .container .templates img {
+    width: 375px;
+    height: 240px;
+    padding: 25px 0;
+}
+
+.shop-hero .container .templates .firwl-template, .shop-hero .container .templates .navigo-cars-template, .shop-hero .container .templates .opg-template {
+    border: 1px solid black;
+    border-radius: 7px;
+    width: fit-content;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.template-btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1400px) {
+    .shop-hero .container .templates {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 4rem;
+        margin: 75px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .shop-hero .container .templates {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 4rem;
+        margin: 75px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .shop-hero .container .templates {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 4rem;
+        margin: 75px 0;
+    }
+
+    .shop-hero .container .templates img {
+        width: 275px;
+        height: 185px;
+        padding: 25px 0;
+    }
+}
