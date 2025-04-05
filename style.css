@@ -170,7 +170,8 @@ body {
     font-family: var(--header-font);
     font-size: 28px;
     text-align: center;
-    padding: 175px 0;
+    padding-top: 175px;
+    padding-bottom: 80px;
 }
 
 .hero h2 i {
@@ -183,12 +184,11 @@ body {
 .about {
     background-color: #070a13;
     color: #fff;
-    padding: 150px 0;
+    padding-top: 0;
+    padding-bottom: 100px;
 }
 
 .about .container {
-
-
     height: 100%;
     margin: 0 auto;
 }
