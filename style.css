@@ -113,7 +113,8 @@ body {
 }
 
 .hero img {
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 450px;
 }
 
 .hero h1 {
@@ -131,10 +132,16 @@ body {
     color: var(--hover-color);
 }
 
+.hero .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero .columns {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .hero .columns .col-md-6 {
@@ -155,7 +162,7 @@ body {
     color: #fff;
 }
 
-.hero .fa-instagram {
+.hero .fa-linkedin {
     margin: 0 15px;
 }
 
@@ -334,7 +341,6 @@ body {
 }
 
 .contact {
-    padding: 50px 0;
     background-color: #070a13;
 }
 
@@ -646,6 +652,10 @@ body {
     
     .hero img {
         width: 80%;
+    }
+
+    .hero h1 {
+        text-align: center;
     }
 
     .hero h2 {
